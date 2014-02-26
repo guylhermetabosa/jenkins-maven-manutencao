@@ -1,0 +1,31 @@
+<ui:composition template="/WEB-INF/templates/geral.xhtml"
+		xmlns="http://www.w3.org/1999/xhtml"
+		xmlns:h="http://java.sun.com/jsf/html"
+		xmlns:f="http://java.sun.com/jsf/core"
+	 	xmlns:ui="http://java.sun.com/jsf/facelets">
+
+	<ui:define name="conteudo">
+
+		<div align="center">		
+		<h1 align="center">Insere Atividade</h1>
+		<h:form>
+
+		<h:messages />
+		<h:panelGrid columns="2">
+			<h:outputLabel for="titulo" value="Titulo da Atividade" />
+			<h:inputText id="titulo" label="Titulo" required="true" 
+				value="#{atividadeBean.atividade.titulo}"/>
+
+			<h:outputLabel for="descricao" value="Descrição" />
+			<h:inputTextarea id="descricao" label="Descrição" required="true" 
+				value="#{atividadeBean.atividade.descricao}" />
+		
+			<h:commandButton id="salvar" class="btn btn-primary" 
+				value="Salvar" action="#{atividadeBean.insere}" />
+		</h:panelGrid>
+		
+		</h:form>
+		</div>
+	</ui:define>
+
+</ui:composition>
