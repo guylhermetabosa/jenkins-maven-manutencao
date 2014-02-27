@@ -7,27 +7,27 @@
 	<ui:define name="conteudo">
 
 		<div align="center">
-			<h1 align="center">Inserir Atividade</h1>
+			<h1 align="center">Editar Atividade</h1>
 			<h:form>
 				<h:messages />
 				<h:panelGrid columns="2">
 					<h:outputLabel for="titulo" value="Titulo da Atividade" />
 					<h:inputText class="input-xxlarge" id="titulo" label="Titulo"
-						required="false" value="#{atividadeBean.atividade.titulo}" />
+						required="false" value="#{atividadeBean.atividadeaux.titulo}" />
 
 					<h:outputLabel for="descricao" value="Descrição" />
 					<h:inputTextarea class="input-xxlarge" rows="15" id="descricao"
 						label="Descrição" required="false"
-						value="#{atividadeBean.atividade.descricao}" />
+						value="#{atividadeBean.atividadeaux.descricao}" />
 
 
 					<h:outputLabel for="data" value="Data" />
 					<h:inputText class="input-xxlarge" rows="15" id="data" label="Data"
-						value="#{atividadeBean.atividade.data}" />
+						value="#{atividadeBean.atividadeaux.data}" />
 
 					<h:panelGrid columns="2">
 						<h:commandButton id="salvar" class="btn btn-success"
-							value="Salvar" action="#{atividadeBean.insere}" ><span class="glyphicon glyphicon-search"></span></h:commandButton>
+							value="Salvar" action="#{atividadeBean.editar}" ><span class="glyphicon glyphicon-search"></span></h:commandButton>
 						<h:commandButton id="cancelar" class="btn btn-danger"
 							value="Cancelar" action="#{atividadeBean.cancel}" ></h:commandButton>
 					</h:panelGrid>

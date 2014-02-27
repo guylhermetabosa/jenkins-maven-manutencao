@@ -1,15 +1,14 @@
 package models;
 
-import java.util.Date;
 
 public class Atividade {
 
-	
+	private static int ultimoID = 0;
 	private int idusuario;
 	private int codigoatividade;
 	private String titulo;
 	private String descricao;
-	private Date data;
+	private String data;
 	
 
 	
@@ -22,9 +21,10 @@ public class Atividade {
 				+ descricao + ", data=" + data + "]";
 	}
 	public Atividade() {
+		this.codigoatividade = ultimoID++;
 	}
 	public Atividade(int idusuario, int codigoatividade, String titulo,
-			String descricao, Date data) {
+			String descricao, String data) {
 		super();
 		this.idusuario = idusuario;
 		this.codigoatividade = codigoatividade;
@@ -56,10 +56,10 @@ public class Atividade {
 	public void setDescricao(String descricao) {
 		this.descricao = descricao;
 	}
-	public Date getData() {
+	public String getData() {
 		return data;
 	}
-	public void setData(Date data) {
+	public void setData(String data) {
 		this.data = data;
 	}
 }

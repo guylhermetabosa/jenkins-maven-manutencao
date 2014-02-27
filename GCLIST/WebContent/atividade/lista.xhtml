@@ -24,7 +24,7 @@
 					</f:facet>
 					<h:outputText value="#{atividade.titulo}" />
 				</h:column>
-				
+
 				<h:column>
 					<f:facet name="header">
 						<h:outputText value="Data Atividade" />
@@ -41,10 +41,27 @@
 
 				<h:column>
 					<h:form>
-						<h:commandButton value="Editar" action="/atividade/insere"
-							styleClass="btn btn-primary" />
-						<h:commandButton value="Remover" action="/atividade/insere"
-							styleClass="btn btn-primary" />
+						<h:commandButton value="Editar" action="/atividade/editar"
+							styleClass="btn btn-info">
+							<f:setPropertyActionListener
+								target="#{atividadeBean.atividadeaux.codigoatividade}"
+								value="#{atividade.codigoatividade}" />
+							<f:setPropertyActionListener
+								target="#{atividadeBean.atividadeaux.titulo}"
+								value="#{atividade.titulo}" />
+							<f:setPropertyActionListener
+								target="#{atividadeBean.atividadeaux.descricao}"
+								value="#{atividade.descricao}" />
+							<f:setPropertyActionListener
+								target="#{atividadeBean.atividadeaux.codigoatividade}"
+								value="#{atividade.codigoatividade}" />
+						</h:commandButton>
+						<h:commandButton value="Excluir" action="#{atividadeBean.remover}"
+							styleClass="btn btn-danger">
+							<f:setPropertyActionListener
+								target="#{atividadeBean.atividadeaux.codigoatividade}"
+								value="#{atividade.codigoatividade}" />
+						</h:commandButton>
 					</h:form>
 				</h:column>
 
