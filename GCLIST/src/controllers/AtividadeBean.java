@@ -22,6 +22,7 @@ public class AtividadeBean {
 
 	public String insere() {
 		repositorio.getAtividades().add(this.atividade);
+		System.out.println(atividade.toString());
 		Flash flash = FacesContext.getCurrentInstance().getExternalContext().getFlash();
 		flash.setKeepMessages(true);
 		FacesContext.getCurrentInstance().addMessage(null, new FacesMessage(FacesMessage.SEVERITY_INFO, "Atividade inserido com sucesso.", null));

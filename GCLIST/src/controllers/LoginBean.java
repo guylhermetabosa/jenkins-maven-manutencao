@@ -23,7 +23,7 @@ public class LoginBean implements Serializable {
 	
 	public String login() {
 		HttpSession session = (HttpSession)FacesContext.getCurrentInstance().getExternalContext().getSession(false);
-		if (nome.equals("joao") && senha.equals("joao1234")) {
+		if (nome.equals("gc") && senha.equals("gc")) {
 			if (session == null) {
 				session = (HttpSession)FacesContext.getCurrentInstance().getExternalContext().getSession(true);
 			}

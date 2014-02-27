@@ -1,30 +1,65 @@
 <ui:composition template="/WEB-INF/templates/geral.xhtml"
-		xmlns="http://www.w3.org/1999/xhtml"
-		xmlns:h="http://java.sun.com/jsf/html"
-		xmlns:f="http://java.sun.com/jsf/core"
-	 	xmlns:ui="http://java.sun.com/jsf/facelets">
+	xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:f="http://java.sun.com/jsf/core"
+	xmlns:ui="http://java.sun.com/jsf/facelets">
 
 	<ui:define name="conteudo">
 
-		<div align="center">		
-		<h1 align="center">Insere Atividade</h1>
-		<h:form>
+		<div align="center">
+			<h1 align="center">Inserir Atividade</h1>
+			<h:form>
+				<h:messages />
+				<h:panelGrid columns="2">
+					<h:outputLabel for="titulo" value="Titulo da Atividade" />
+					<h:inputText class="input-xxlarge" id="titulo" label="Titulo"
+						required="true" value="#{atividadeBean.atividade.titulo}" />
 
-		<h:messages />
-		<h:panelGrid columns="2">
-			<h:outputLabel for="titulo" value="Titulo da Atividade" />
-			<h:inputText id="titulo" label="Titulo" required="true" 
-				value="#{atividadeBean.atividade.titulo}"/>
+					<h:outputLabel for="descricao" value="Descrição" />
+					<h:inputTextarea class="input-xxlarge" rows="15" id="descricao"
+						label="Descrição" required="true"
+						value="#{atividadeBean.atividade.descricao}" />
 
-			<h:outputLabel for="descricao" value="Descrição" />
-			<h:inputTextarea id="descricao" label="Descrição" required="true" 
-				value="#{atividadeBean.atividade.descricao}" />
-		
-			<h:commandButton id="salvar" class="btn btn-primary" 
-				value="Salvar" action="#{atividadeBean.insere}" />
-		</h:panelGrid>
-		
-		</h:form>
+					<h:outputLabel for="data" value="Data" />
+					<!-- 
+					<div id="datetimepicker" class="input-append date">
+						<input type="text" value="#{atividadeBean.atividade.data}"></input>
+						<span class="add-on"> 
+						<i data-time-icon="icon-time" data-date-icon="icon-calendar"></i>
+						</span>
+						<script type="text/javascript"
+							src="http://cdnjs.cloudflare.com/ajax/libs/jquery/1.8.3/jquery.min.js">
+						</script>
+						<script type="text/javascript"
+							src="http://netdna.bootstrapcdn.com/twitter-bootstrap/2.2.2/js/bootstrap.min.js">
+						</script>
+						<script type="text/javascript"
+							src="http://tarruda.github.com/bootstrap-datetimepicker/assets/js/bootstrap-datetimepicker.min.js">
+						</script>
+						<script type="text/javascript"
+							src="http://tarruda.github.com/bootstrap-datetimepicker/assets/js/bootstrap-datetimepicker.pt-BR.js">
+						</script>
+						<script type="text/javascript">
+							$('#datetimepicker').datetimepicker({
+								format : 'dd/MM/yyyy',
+								language : 'pt-BR'
+							});
+						</script>
+					</div> -->
+					
+					<h:outputLabel for="data" value="Data" />
+					<h:inputText class="input-xxlarge" rows="15" id="data"
+						label="Data" required="true" format="simpleDataFormat" 
+						value="#{atividadeBean.atividade.data}" />
+					
+					<h:panelGrid columns="2">
+						<h:commandButton id="salvar" class="btn btn-primary"
+							value="Salvar" action="#{atividadeBean.insere}" />
+						<h:commandButton id="cancelar" class="btn btn-primary"
+							value="Cancelar" action="#{atividadeBean.insere}" />
+					</h:panelGrid>
+				</h:panelGrid>
+			</h:form>
 		</div>
 	</ui:define>
 
