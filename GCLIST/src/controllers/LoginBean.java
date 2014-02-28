@@ -6,7 +6,7 @@ import javax.faces.bean.ManagedBean;
 import javax.faces.context.FacesContext;
 import javax.servlet.http.HttpSession;
 
-@ManagedBean
+@ManagedBean(name="loginBean")
 public class LoginBean implements Serializable {
 
 	private static final long serialVersionUID = 9108781020220176401L;
