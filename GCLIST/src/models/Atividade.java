@@ -12,10 +12,8 @@ import javax.persistence.ManyToOne;
 @Entity
 public class Atividade {
 
-	private static int ultimoID = 0;
 	
-	@ManyToOne(fetch = FetchType.LAZY)
-	@JoinColumn(name="idUsuario")
+	@Column(name="idUsuario")
 	private int idusuario;
 	
 	@Id
@@ -43,7 +41,6 @@ public class Atividade {
 				+ descricao + ", data=" + data + "]";
 	}
 	public Atividade() {
-		this.codigoatividade = ultimoID++;
 	}
 	public Atividade(int idusuario, int codigoatividade, String titulo,
 			String descricao, String data) {

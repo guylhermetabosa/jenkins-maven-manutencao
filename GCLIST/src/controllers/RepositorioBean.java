@@ -6,6 +6,8 @@ import javax.faces.bean.ManagedBean;
 import javax.faces.bean.SessionScoped;
 
 import models.Atividade;
+import dao.AtividadeDAO;
+import dao.AtividadeJPADAO;
 
 @ManagedBean
 @SessionScoped
@@ -26,6 +28,8 @@ public class RepositorioBean {
 	}
 
 	public String insere(Atividade atividade) {
+		AtividadeDAO atd = new AtividadeJPADAO();
+		atd.salvar(atividade);
 		atividades.add(atividade);
 		return "lista";
 	}

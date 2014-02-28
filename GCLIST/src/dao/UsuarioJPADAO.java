@@ -10,13 +10,13 @@ public class UsuarioJPADAO extends GenericJPADAO<Usuario> implements UsuarioDAO{
 	}
 
 	@Override
-	public Usuario salvarUser(String nome, String senha) {
+	public Usuario salvarUser(Usuario usuario) {
 		UsuarioDAO usd = new UsuarioJPADAO();
-		Usuario usuario = null;
 		try{
 			usd.beginTransaction();
-			usd.save(new Usuario(nome, senha));
-			usuario = procurarUsuario(nome);
+			usd.save(usuario);
+			usuario = procurarUsuario(usuario.getNome());
+			System.out.println("Entrou no salvar usuario");
 		}catch(Exception e){
 			usd.rollback();
 			e.printStackTrace();
