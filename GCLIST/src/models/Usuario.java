@@ -15,15 +15,14 @@ public class Usuario {
 	private String nome;
 	
 	@Column
-	private String descricao;
+	private String senha;
 	
 	public Usuario(){
 	}
-	public Usuario(int id, String nome, String descricao) {
+	public Usuario(String nome, String senha) {
 		super();
-		this.id = id;
 		this.nome = nome;
-		this.descricao = descricao;
+		this.senha = senha;
 	}
 	public int getId() {
 		return id;
@@ -37,10 +36,10 @@ public class Usuario {
 	public void setNome(String nome) {
 		this.nome = nome;
 	}
-	public String getDescricao() {
-		return descricao;
+	public String getSenha() {
+		return senha;
 	}
-	public void setDescricao(String descricao) {
-		this.descricao = descricao;
+	public void setSenha(String senha) {
+		this.senha = senha;
 	}
 }
