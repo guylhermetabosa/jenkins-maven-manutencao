@@ -29,9 +29,11 @@ public class LoginBean implements Serializable {
 	public String login() {
 		session = (HttpSession)FacesContext.getCurrentInstance().getExternalContext().getSession(false);
 		if (verificarUser(this.nome,this.senha)) {
+			System.out.println("IF");
 			if (session == null) {
 				session = (HttpSession)FacesContext.getCurrentInstance().getExternalContext().getSession(true);
 			}
+			session.setAttribute("nome", nome);
 			return "/index?faces-redirect=true";
 		} else {
 			if (session != null) {
@@ -60,9 +62,13 @@ public class LoginBean implements Serializable {
 		UsuarioDAO usd = new UsuarioJPADAO();
 		try{
 			List<Usuario> users = usd.find();
+			
 			for(Usuario u: users){
+				System.out.println(u.getNome() + " " + u.getSenha());
+				
 				if(u.getNome().equals(nome) && u.getSenha().equals(senha)){
-					session.setAttribute("usuario", u);
+					System.out.println(nome + " " + senha);
+					//session.setAttribute("usuario", u);
 					return true;
 				}
 			}
