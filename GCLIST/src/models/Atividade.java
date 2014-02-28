@@ -1,13 +1,35 @@
 package models;
 
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.FetchType;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+import javax.persistence.JoinColumn;
+import javax.persistence.ManyToOne;
 
+@Entity
 public class Atividade {
 
 	private static int ultimoID = 0;
+	
+	@ManyToOne(fetch = FetchType.LAZY)
+	@JoinColumn(name="idUsuario")
 	private int idusuario;
+	
+	@Id
+	@Column(name="codigoAtividade")
+	@GeneratedValue(strategy=GenerationType.AUTO)
 	private int codigoatividade;
+	
+	@Column(name="titulo")
 	private String titulo;
+	
+	@Column(name="descricao")
 	private String descricao;
+	
+	@Column(name="data")
 	private String data;
 	
 

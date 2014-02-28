@@ -1,9 +1,20 @@
 package models;
 
+import javax.persistence.Column;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+
 public class Usuario {
 	
+	@Id
+	@GeneratedValue(strategy=GenerationType.AUTO)
 	private int id;
+	
+	@Column
 	private String nome;
+	
+	@Column
 	private String descricao;
 	
 	public Usuario(){
