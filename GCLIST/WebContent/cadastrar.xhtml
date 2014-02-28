@@ -56,10 +56,10 @@
         </h:panelGroup>
         <h:panelGrid columns="2">
         <h:outputLabel for="login" value="Login" />
-        <h:inputText id="login" label="Login" value="#{cadastrarBean.usuario.nome}" 
+        <h:inputText id="login" label="Login" value="#{cadastrarBean.nome}" 
         	class="input-block-level" required="true" />
          <h:outputLabel for="senha" value="Senha" /> 
-        <h:inputSecret id="senha" label="Senha" value="#{cadastrarBean.usuario.senha}" 
+        <h:inputSecret id="senha" label="Senha" value="#{cadastrarBean.senha}" 
          	class="input-block-level" required="true" /> 
         <h:commandButton class="btn btn-primary" value="Salvar" action="#{cadastrarBean.novo}" />
        	<h:commandButton class="btn btn-primary" value="Cancelar" action="/login.xhtml" />
