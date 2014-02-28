@@ -12,6 +12,7 @@ public class AtividadeJPADAO extends GenericJPADAO<Atividade> implements Ativida
 		AtividadeDAO atd= new AtividadeJPADAO();
 		try{
 			atd.beginTransaction();
+			System.out.println(atividade.toString());
 			atd.save(atividade);
 		}catch(Exception e){
 			e.printStackTrace();

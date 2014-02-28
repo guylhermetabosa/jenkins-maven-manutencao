@@ -6,6 +6,7 @@ import javax.faces.bean.ManagedBean;
 import javax.faces.bean.SessionScoped;
 
 import models.Atividade;
+import models.Usuario;
 import dao.AtividadeDAO;
 import dao.AtividadeJPADAO;
 
@@ -27,11 +28,16 @@ public class RepositorioBean {
 		this.atividades = a;
 	}
 
-	public String insere(Atividade atividade) {
+	public void insere(Atividade atividade, Usuario usuario) {
 		AtividadeDAO atd = new AtividadeJPADAO();
+		atividade.setUsuario(usuario);
 		atd.salvar(atividade);
+		System.out.println("Adicionado com sucesso");
 		atividades.add(atividade);
-		return "lista";
+	}
+	public void remover(Atividade atividade){
+		AtividadeDAO atd = new AtividadeJPADAO();
+		atd.delete(atividade);
 	}
 
 }

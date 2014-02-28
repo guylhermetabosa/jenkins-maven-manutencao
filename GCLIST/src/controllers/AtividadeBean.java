@@ -5,8 +5,10 @@ import javax.faces.bean.ManagedBean;
 import javax.faces.bean.ManagedProperty;
 import javax.faces.context.FacesContext;
 import javax.faces.context.Flash;
+import javax.servlet.http.HttpSession;
 
 import models.Atividade;
+import models.Usuario;
 
 @ManagedBean
 public class AtividadeBean {
@@ -27,7 +29,8 @@ public class AtividadeBean {
 	}
 
 	public String insere() {
-		repositorio.getAtividades().add(this.atividade);
+		HttpSession session = (HttpSession)FacesContext.getCurrentInstance().getExternalContext().getSession(true);
+		repositorio.insere(this.atividade,(Usuario) session.getAttribute("usuario"));
 		System.out.println(atividade.toString());
 		Flash flash = FacesContext.getCurrentInstance().getExternalContext().getFlash();
 		flash.setKeepMessages(true);

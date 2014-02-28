@@ -17,7 +17,7 @@ public class LoginBean implements Serializable {
 	private static final long serialVersionUID = 9108781020220176401L;
 	private String nome;
 	private String senha;
-	private int id;
+	private HttpSession session;
 	public LoginBean() {
 		System.out.println("construtor login bean");
 		HttpSession session = (HttpSession)FacesContext.getCurrentInstance().getExternalContext().getSession(false);
@@ -27,13 +27,11 @@ public class LoginBean implements Serializable {
 	}
 	
 	public String login() {
-		HttpSession session = (HttpSession)FacesContext.getCurrentInstance().getExternalContext().getSession(false);
+		session = (HttpSession)FacesContext.getCurrentInstance().getExternalContext().getSession(false);
 		if (verificarUser(this.nome,this.senha)) {
 			if (session == null) {
 				session = (HttpSession)FacesContext.getCurrentInstance().getExternalContext().getSession(true);
 			}
-			session.setAttribute("id", this.id);
-			session.setAttribute("nome", this.nome);
 			return "/index?faces-redirect=true";
 		} else {
 			if (session != null) {
@@ -64,7 +62,7 @@ public class LoginBean implements Serializable {
 			List<Usuario> users = usd.find();
 			for(Usuario u: users){
 				if(u.getNome().equals(nome) && u.getSenha().equals(senha)){
-					this.id = u.getId();
+					session.setAttribute("usuario", u);
 					return true;
 				}
 			}
