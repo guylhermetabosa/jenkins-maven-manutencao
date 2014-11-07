@@ -1,0 +1,909 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="5.7">
+<file name="C:\Users\Guylherme\git\TrabalhoGC\GCLIST\src\controllers\AtividadeBean.java">
+<error line="0" severity="error" message="Missing package-info.java file." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocPackageCheck"/>
+<error line="13" severity="error" message="Falta o comentário Javadoc." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocTypeCheck"/>
+<error line="15" column="1" severity="error" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="15" column="9" severity="error" message="Falta o comentário Javadoc." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="16" column="1" severity="error" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="16" column="9" severity="error" message="Falta o comentário Javadoc." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="17" severity="error" message="Line has trailing spaces." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
+<error line="17" column="1" severity="error" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="18" column="1" severity="error" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="18" column="9" severity="error" message="Falta o comentário Javadoc." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="18" column="31" severity="error" message="&apos;=&apos; não é precedido por espaço em branco." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="18" column="32" severity="error" message="&apos;=&apos; não é seguido de espaço em branco." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="19" column="1" severity="error" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="21" column="1" severity="error" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="21" column="9" severity="error" message="Falta o comentário Javadoc." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="22" column="1" severity="error" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="23" column="1" severity="error" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="24" column="1" severity="error" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="25" column="1" severity="error" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="26" severity="error" message="Line has trailing spaces." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
+<error line="26" column="1" severity="error" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="27" column="1" severity="error" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="27" column="9" severity="error" message="Falta o comentário Javadoc." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="27" column="9" severity="error" message="O método &apos;cancel&apos; não foi concebido para extensão - precisa de ser abstracto, final ou vazio." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="27" column="31" severity="error" message="&apos;{&apos; não é precedido por espaço em branco." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="28" column="1" severity="error" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="29" column="1" severity="error" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="31" column="1" severity="error" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="31" column="9" severity="error" message="Falta o comentário Javadoc." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="31" column="9" severity="error" message="O método &apos;insere&apos; não foi concebido para extensão - precisa de ser abstracto, final ou vazio." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="32" severity="error" message="Linha contém mais do que 80 caracteres." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="32" column="1" severity="error" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="32" column="52" severity="error" message="&apos;cast&apos; não é seguido de espaço em branco." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAfterCheck"/>
+<error line="33" severity="error" message="Linha contém mais do que 80 caracteres." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="33" column="1" severity="error" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="33" column="51" severity="error" message="&apos;,&apos; não é seguido de espaço em branco." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAfterCheck"/>
+<error line="34" column="1" severity="error" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="35" severity="error" message="Linha contém mais do que 80 caracteres." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="35" column="1" severity="error" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="36" column="1" severity="error" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="37" severity="error" message="Linha contém mais do que 80 caracteres." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="37" column="1" severity="error" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="38" column="1" severity="error" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="39" column="1" severity="error" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="40" severity="error" message="Line has trailing spaces." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
+<error line="40" column="1" severity="error" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="41" column="1" severity="error" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="41" column="9" severity="error" message="Falta o comentário Javadoc." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="41" column="9" severity="error" message="O método &apos;remover&apos; não foi concebido para extensão - precisa de ser abstracto, final ou vazio." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="41" column="32" severity="error" message="&apos;{&apos; não é precedido por espaço em branco." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="42" severity="error" message="Line has trailing spaces." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
+<error line="42" column="1" severity="error" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="43" column="1" severity="error" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="43" column="20" severity="error" message="&apos;for&apos; não é seguido de espaço em branco." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="43" column="26" severity="error" message="&apos;=&apos; não é precedido por espaço em branco." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="43" column="27" severity="error" message="&apos;=&apos; não é seguido de espaço em branco." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="43" column="29" severity="error" message="&apos;;&apos; não é seguido de espaço em branco." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAfterCheck"/>
+<error line="43" column="30" severity="error" message="&apos;&lt;&apos; não é precedido por espaço em branco." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="43" column="31" severity="error" message="&apos;&lt;&apos; não é seguido de espaço em branco." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="43" column="61" severity="error" message="&apos;;&apos; não é seguido de espaço em branco." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAfterCheck"/>
+<error line="43" column="65" severity="error" message="&apos;{&apos; não é precedido por espaço em branco." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="44" severity="error" message="Linha contém mais do que 80 caracteres." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="44" column="1" severity="error" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="44" column="27" severity="error" message="&apos;if&apos; não é seguido de espaço em branco." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="44" column="116" severity="error" message="&apos;{&apos; não é precedido por espaço em branco." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="45" column="1" severity="error" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="46" column="1" severity="error" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="47" column="1" severity="error" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="48" column="1" severity="error" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="49" column="1" severity="error" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="50" severity="error" message="Line has trailing spaces." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
+<error line="50" column="1" severity="error" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="51" column="1" severity="error" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="51" column="9" severity="error" message="Falta o comentário Javadoc." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="51" column="9" severity="error" message="O método &apos;editar&apos; não foi concebido para extensão - precisa de ser abstracto, final ou vazio." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="51" column="31" severity="error" message="&apos;{&apos; não é precedido por espaço em branco." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="52" severity="error" message="Line has trailing spaces." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
+<error line="52" column="1" severity="error" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="53" column="1" severity="error" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="54" severity="error" message="Line has trailing spaces." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
+<error line="54" column="1" severity="error" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="55" column="1" severity="error" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="55" column="20" severity="error" message="&apos;for&apos; não é seguido de espaço em branco." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="55" column="26" severity="error" message="&apos;=&apos; não é precedido por espaço em branco." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="55" column="27" severity="error" message="&apos;=&apos; não é seguido de espaço em branco." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="55" column="29" severity="error" message="&apos;;&apos; não é seguido de espaço em branco." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAfterCheck"/>
+<error line="55" column="30" severity="error" message="&apos;&lt;&apos; não é precedido por espaço em branco." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="55" column="31" severity="error" message="&apos;&lt;&apos; não é seguido de espaço em branco." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="55" column="61" severity="error" message="&apos;;&apos; não é seguido de espaço em branco." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAfterCheck"/>
+<error line="55" column="65" severity="error" message="&apos;{&apos; não é precedido por espaço em branco." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="56" severity="error" message="Linha contém mais do que 80 caracteres." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="56" column="1" severity="error" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="56" column="27" severity="error" message="&apos;if&apos; não é seguido de espaço em branco." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="56" column="103" severity="error" message="&apos;{&apos; não é precedido por espaço em branco." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="57" severity="error" message="Line has trailing spaces." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
+<error line="57" column="1" severity="error" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="58" column="1" severity="error" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="59" severity="error" message="Line has trailing spaces." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
+<error line="59" column="1" severity="error" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="60" severity="error" message="Linha contém mais do que 80 caracteres." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="60" column="1" severity="error" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="61" severity="error" message="Linha contém mais do que 80 caracteres." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="61" column="1" severity="error" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="62" severity="error" message="Linha contém mais do que 80 caracteres." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="62" column="1" severity="error" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="63" column="1" severity="error" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="64" column="1" severity="error" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="65" column="1" severity="error" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="66" column="1" severity="error" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="68" severity="error" message="Line has trailing spaces." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
+<error line="68" column="1" severity="error" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="69" severity="error" message="Line has trailing spaces." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
+<error line="69" column="1" severity="error" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="70" column="1" severity="error" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="70" column="9" severity="error" message="Falta o comentário Javadoc." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="70" column="9" severity="error" message="O método &apos;getRepositorio&apos; não foi concebido para extensão - precisa de ser abstracto, final ou vazio." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="71" column="1" severity="error" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="72" column="1" severity="error" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="73" column="1" severity="error" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="73" column="9" severity="error" message="Falta o comentário Javadoc." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="73" column="9" severity="error" message="O método &apos;setRepositorio&apos; não foi concebido para extensão - precisa de ser abstracto, final ou vazio." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="73" column="36" severity="error" message="Parameter repositorio should be final." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="73" column="52" severity="error" message="&apos;repositorio&apos; esconde um campo." source="com.puppycrawl.tools.checkstyle.checks.coding.HiddenFieldCheck"/>
+<error line="74" column="1" severity="error" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="75" column="1" severity="error" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="76" column="1" severity="error" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="76" column="9" severity="error" message="Falta o comentário Javadoc." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="76" column="9" severity="error" message="O método &apos;getAtividade&apos; não foi concebido para extensão - precisa de ser abstracto, final ou vazio." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="77" column="1" severity="error" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="78" column="1" severity="error" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="79" column="1" severity="error" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="79" column="9" severity="error" message="Falta o comentário Javadoc." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="79" column="9" severity="error" message="O método &apos;setAtividade&apos; não foi concebido para extensão - precisa de ser abstracto, final ou vazio." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="79" column="34" severity="error" message="Parameter atividade should be final." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="79" column="44" severity="error" message="&apos;atividade&apos; esconde um campo." source="com.puppycrawl.tools.checkstyle.checks.coding.HiddenFieldCheck"/>
+<error line="80" column="1" severity="error" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="81" column="1" severity="error" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="82" column="1" severity="error" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="82" column="9" severity="error" message="Falta o comentário Javadoc." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="82" column="9" severity="error" message="O método &apos;getAtividadeaux&apos; não foi concebido para extensão - precisa de ser abstracto, final ou vazio." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="83" column="1" severity="error" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="84" column="1" severity="error" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="85" column="1" severity="error" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="85" column="9" severity="error" message="Falta o comentário Javadoc." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="85" column="9" severity="error" message="O método &apos;setAtividadeaux&apos; não foi concebido para extensão - precisa de ser abstracto, final ou vazio." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="85" column="37" severity="error" message="Parameter atividadeaux should be final." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="85" column="47" severity="error" message="&apos;atividadeaux&apos; esconde um campo." source="com.puppycrawl.tools.checkstyle.checks.coding.HiddenFieldCheck"/>
+<error line="86" column="1" severity="error" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="87" column="1" severity="error" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+</file>
+<file name="C:\Users\Guylherme\git\TrabalhoGC\GCLIST\src\controllers\CadastrarBean.java">
+<error line="9" severity="error" message="Falta o comentário Javadoc." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocTypeCheck"/>
+<error line="12" column="1" severity="error" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="12" column="9" severity="error" message="Falta o comentário Javadoc." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="13" column="1" severity="error" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="13" column="9" severity="error" message="Falta o comentário Javadoc." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="14" severity="error" message="Line has trailing spaces." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
+<error line="14" column="1" severity="error" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="15" column="1" severity="error" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="15" column="9" severity="error" message="Falta o comentário Javadoc." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="15" column="31" severity="error" message="&apos;{&apos; não é precedido por espaço em branco." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="16" column="1" severity="error" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="17" column="1" severity="error" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="18" severity="error" message="Line has trailing spaces." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
+<error line="18" column="1" severity="error" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="19" column="1" severity="error" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="19" column="9" severity="error" message="Falta o comentário Javadoc." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="19" column="9" severity="error" message="O método &apos;novo&apos; não foi concebido para extensão - precisa de ser abstracto, final ou vazio." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="19" column="29" severity="error" message="&apos;{&apos; não é precedido por espaço em branco." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="20" column="1" severity="error" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="21" column="1" severity="error" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="22" column="1" severity="error" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="23" column="1" severity="error" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="24" column="1" severity="error" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="25" severity="error" message="Line has trailing spaces." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
+<error line="25" column="1" severity="error" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="26" column="1" severity="error" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="26" column="9" severity="error" message="Falta o comentário Javadoc." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="26" column="9" severity="error" message="O método &apos;getNome&apos; não foi concebido para extensão - precisa de ser abstracto, final ou vazio." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="27" column="1" severity="error" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="28" column="1" severity="error" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="29" column="1" severity="error" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="29" column="9" severity="error" message="Falta o comentário Javadoc." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="29" column="9" severity="error" message="O método &apos;setNome&apos; não foi concebido para extensão - precisa de ser abstracto, final ou vazio." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="29" column="29" severity="error" message="Parameter nome should be final." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="29" column="36" severity="error" message="&apos;nome&apos; esconde um campo." source="com.puppycrawl.tools.checkstyle.checks.coding.HiddenFieldCheck"/>
+<error line="30" column="1" severity="error" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="31" column="1" severity="error" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="32" column="1" severity="error" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="32" column="9" severity="error" message="Falta o comentário Javadoc." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="32" column="9" severity="error" message="O método &apos;getSenha&apos; não foi concebido para extensão - precisa de ser abstracto, final ou vazio." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="33" column="1" severity="error" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="34" column="1" severity="error" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="35" column="1" severity="error" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="35" column="9" severity="error" message="Falta o comentário Javadoc." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="35" column="9" severity="error" message="O método &apos;setSenha&apos; não foi concebido para extensão - precisa de ser abstracto, final ou vazio." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="35" column="30" severity="error" message="Parameter senha should be final." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="35" column="37" severity="error" message="&apos;senha&apos; esconde um campo." source="com.puppycrawl.tools.checkstyle.checks.coding.HiddenFieldCheck"/>
+<error line="36" column="1" severity="error" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="37" column="1" severity="error" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+</file>
+<file name="C:\Users\Guylherme\git\TrabalhoGC\GCLIST\src\controllers\LoginBean.java">
+<error line="14" severity="error" message="Falta o comentário Javadoc." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocTypeCheck"/>
+<error line="14" column="18" severity="error" message="&apos;=&apos; não é precedido por espaço em branco." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="14" column="19" severity="error" message="&apos;=&apos; não é seguido de espaço em branco." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="17" column="1" severity="error" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="17" column="9" severity="error" message="Falta o comentário Javadoc." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="18" column="1" severity="error" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="18" column="9" severity="error" message="Falta o comentário Javadoc." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="19" column="1" severity="error" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="19" column="9" severity="error" message="Falta o comentário Javadoc." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="20" column="1" severity="error" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="20" column="9" severity="error" message="Falta o comentário Javadoc." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="21" column="1" severity="error" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="21" column="9" severity="error" message="Falta o comentário Javadoc." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="22" column="1" severity="error" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="23" severity="error" message="Linha contém mais do que 80 caracteres." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="23" column="1" severity="error" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="23" column="29" severity="error" message="&apos;session&apos; esconde um campo." source="com.puppycrawl.tools.checkstyle.checks.coding.HiddenFieldCheck"/>
+<error line="23" column="52" severity="error" message="&apos;cast&apos; não é seguido de espaço em branco." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAfterCheck"/>
+<error line="24" column="1" severity="error" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="25" column="1" severity="error" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="26" column="1" severity="error" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="27" column="1" severity="error" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="28" severity="error" message="Line has trailing spaces." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
+<error line="28" column="1" severity="error" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="29" column="1" severity="error" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="29" column="9" severity="error" message="Falta o comentário Javadoc." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="29" column="9" severity="error" message="O método &apos;login&apos; não foi concebido para extensão - precisa de ser abstracto, final ou vazio." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="30" severity="error" message="Linha contém mais do que 80 caracteres." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="30" column="1" severity="error" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="30" column="40" severity="error" message="&apos;cast&apos; não é seguido de espaço em branco." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAfterCheck"/>
+<error line="31" column="1" severity="error" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="31" column="45" severity="error" message="&apos;,&apos; não é seguido de espaço em branco." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAfterCheck"/>
+<error line="32" column="1" severity="error" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="33" column="1" severity="error" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="34" severity="error" message="Linha contém mais do que 80 caracteres." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="34" column="1" severity="error" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="34" column="56" severity="error" message="&apos;cast&apos; não é seguido de espaço em branco." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAfterCheck"/>
+<error line="35" column="1" severity="error" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="36" column="1" severity="error" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="37" column="1" severity="error" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="38" column="1" severity="error" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="39" column="1" severity="error" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="40" column="1" severity="error" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="41" column="1" severity="error" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="42" column="1" severity="error" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="43" column="1" severity="error" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="44" column="1" severity="error" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="46" column="1" severity="error" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="46" column="9" severity="error" message="Falta o comentário Javadoc." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="46" column="9" severity="error" message="O método &apos;getNome&apos; não foi concebido para extensão - precisa de ser abstracto, final ou vazio." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="47" column="1" severity="error" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="48" column="1" severity="error" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="50" column="1" severity="error" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="50" column="9" severity="error" message="Falta o comentário Javadoc." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="50" column="9" severity="error" message="O método &apos;setNome&apos; não foi concebido para extensão - precisa de ser abstracto, final ou vazio." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="50" column="29" severity="error" message="Parameter nome should be final." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="50" column="36" severity="error" message="&apos;nome&apos; esconde um campo." source="com.puppycrawl.tools.checkstyle.checks.coding.HiddenFieldCheck"/>
+<error line="51" column="1" severity="error" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="52" column="1" severity="error" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="54" column="1" severity="error" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="54" column="9" severity="error" message="Falta o comentário Javadoc." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="54" column="9" severity="error" message="O método &apos;getSenha&apos; não foi concebido para extensão - precisa de ser abstracto, final ou vazio." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="55" column="1" severity="error" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="56" column="1" severity="error" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="58" column="1" severity="error" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="58" column="9" severity="error" message="Falta o comentário Javadoc." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="58" column="9" severity="error" message="O método &apos;setSenha&apos; não foi concebido para extensão - precisa de ser abstracto, final ou vazio." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="58" column="30" severity="error" message="Parameter senha should be final." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="58" column="37" severity="error" message="&apos;senha&apos; esconde um campo." source="com.puppycrawl.tools.checkstyle.checks.coding.HiddenFieldCheck"/>
+<error line="59" column="1" severity="error" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="60" column="1" severity="error" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="61" column="1" severity="error" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="61" column="9" severity="error" message="Falta o comentário Javadoc." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="61" column="9" severity="error" message="O método &apos;verificarUser&apos; não foi concebido para extensão - precisa de ser abstracto, final ou vazio." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="61" column="38" severity="error" message="Parameter nome should be final." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="61" column="45" severity="error" message="&apos;nome&apos; esconde um campo." source="com.puppycrawl.tools.checkstyle.checks.coding.HiddenFieldCheck"/>
+<error line="61" column="51" severity="error" message="Parameter senha should be final." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="61" column="58" severity="error" message="&apos;senha&apos; esconde um campo." source="com.puppycrawl.tools.checkstyle.checks.coding.HiddenFieldCheck"/>
+<error line="61" column="64" severity="error" message="&apos;{&apos; não é precedido por espaço em branco." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="62" column="1" severity="error" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="63" column="1" severity="error" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="63" column="20" severity="error" message="&apos;try&apos; não é seguido de espaço em branco." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="63" column="20" severity="error" message="&apos;{&apos; não é precedido por espaço em branco." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="64" column="1" severity="error" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="65" severity="error" message="Line has trailing spaces." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
+<error line="65" column="1" severity="error" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="66" column="1" severity="error" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="66" column="28" severity="error" message="&apos;for&apos; não é seguido de espaço em branco." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="66" column="46" severity="error" message="&apos;{&apos; não é precedido por espaço em branco." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="67" severity="error" message="Linha contém mais do que 80 caracteres." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="67" column="1" severity="error" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="68" severity="error" message="Line has trailing spaces." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
+<error line="68" column="1" severity="error" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="69" severity="error" message="Linha contém mais do que 80 caracteres." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="69" column="1" severity="error" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="69" column="35" severity="error" message="&apos;if&apos; não é seguido de espaço em branco." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="69" column="91" severity="error" message="&apos;{&apos; não é precedido por espaço em branco." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="70" column="1" severity="error" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="71" column="1" severity="error" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="72" column="1" severity="error" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="73" column="1" severity="error" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="74" column="1" severity="error" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="75" column="1" severity="error" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="75" column="18" severity="error" message="&apos;catch&apos; não é precedido por espaço em branco." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="75" column="18" severity="error" message="&apos;}&apos; não é seguido de espaço em branco." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="75" column="23" severity="error" message="&apos;catch&apos; não é seguido de espaço em branco." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="75" column="36" severity="error" message="&apos;{&apos; não é precedido por espaço em branco." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="76" column="1" severity="error" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="77" column="1" severity="error" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="78" column="1" severity="error" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="79" column="1" severity="error" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+</file>
+<file name="C:\Users\Guylherme\git\TrabalhoGC\GCLIST\src\controllers\RepositorioBean.java">
+<error line="13" severity="error" message="Falta o comentário Javadoc." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocTypeCheck"/>
+<error line="17" column="1" severity="error" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="17" column="9" severity="error" message="Falta o comentário Javadoc." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="18" column="1" severity="error" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="19" column="1" severity="error" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="20" severity="error" message="Line has trailing spaces." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
+<error line="20" column="1" severity="error" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="21" column="1" severity="error" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="21" column="9" severity="error" message="Falta o comentário Javadoc." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="21" column="25" severity="error" message="Variável &apos;atividades&apos; deve ser privada e ter métodos acessores." source="com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"/>
+<error line="22" severity="error" message="Line has trailing spaces." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
+<error line="22" column="1" severity="error" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="23" column="1" severity="error" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="23" column="9" severity="error" message="Falta o comentário Javadoc." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="23" column="9" severity="error" message="O método &apos;getAtividades&apos; não foi concebido para extensão - precisa de ser abstracto, final ou vazio." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="24" column="1" severity="error" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="25" column="1" severity="error" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="27" column="1" severity="error" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="27" column="9" severity="error" message="Falta o comentário Javadoc." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="27" column="9" severity="error" message="O método &apos;setAtividades&apos; não foi concebido para extensão - precisa de ser abstracto, final ou vazio." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="27" column="35" severity="error" message="Parameter atividade should be final." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="28" column="1" severity="error" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="29" column="1" severity="error" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="31" column="1" severity="error" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="31" column="9" severity="error" message="Falta o comentário Javadoc." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="31" column="9" severity="error" message="O método &apos;insere&apos; não foi concebido para extensão - precisa de ser abstracto, final ou vazio." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="31" column="28" severity="error" message="Parameter atividade should be final." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="31" column="49" severity="error" message="Parameter usuario should be final." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="32" column="1" severity="error" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="33" column="1" severity="error" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="34" column="1" severity="error" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="35" column="1" severity="error" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="36" column="1" severity="error" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="37" column="1" severity="error" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="38" column="1" severity="error" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="38" column="9" severity="error" message="Falta o comentário Javadoc." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="38" column="9" severity="error" message="O método &apos;remover&apos; não foi concebido para extensão - precisa de ser abstracto, final ou vazio." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="38" column="29" severity="error" message="Parameter atividade should be final." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="38" column="49" severity="error" message="&apos;{&apos; não é precedido por espaço em branco." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="39" column="1" severity="error" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="40" column="1" severity="error" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="41" column="1" severity="error" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+</file>
+<file name="C:\Users\Guylherme\git\TrabalhoGC\GCLIST\src\dao\AtividadeDAO.java">
+<error line="0" severity="error" message="Missing package-info.java file." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocPackageCheck"/>
+<error line="5" severity="error" message="Falta o comentário Javadoc." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocTypeCheck"/>
+<error line="5" column="60" severity="error" message="&apos;{&apos; não é precedido por espaço em branco." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="6" column="1" severity="error" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="6" column="9" severity="error" message="Falta o comentário Javadoc." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="6" column="9" severity="error" message="Modificador &apos;public&apos; é redundante." source="com.puppycrawl.tools.checkstyle.checks.modifier.RedundantModifierCheck"/>
+</file>
+<file name="C:\Users\Guylherme\git\TrabalhoGC\GCLIST\src\dao\AtividadeJPADAO.java">
+<error line="6" severity="error" message="Falta o comentário Javadoc." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocTypeCheck"/>
+<error line="6" severity="error" message="Linha contém mais do que 80 caracteres." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="6" column="86" severity="error" message="&apos;{&apos; não é precedido por espaço em branco." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="7" column="1" severity="error" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="7" column="9" severity="error" message="Falta o comentário Javadoc." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="7" column="33" severity="error" message="&apos;{&apos; não é precedido por espaço em branco." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="8" column="1" severity="error" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="8" column="37" severity="error" message="&apos;=&apos; não é precedido por espaço em branco." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="8" column="38" severity="error" message="&apos;=&apos; não é seguido de espaço em branco." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="9" column="1" severity="error" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="11" column="1" severity="error" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="11" column="9" severity="error" message="O método &apos;salvar&apos; não foi concebido para extensão - precisa de ser abstracto, final ou vazio." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="12" column="1" severity="error" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="12" column="28" severity="error" message="Parameter atividade should be final." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="13" column="1" severity="error" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="13" column="33" severity="error" message="&apos;=&apos; não é precedido por espaço em branco." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="14" column="1" severity="error" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="14" column="20" severity="error" message="&apos;try&apos; não é seguido de espaço em branco." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="14" column="20" severity="error" message="&apos;{&apos; não é precedido por espaço em branco." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="15" column="1" severity="error" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="16" column="1" severity="error" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="17" column="1" severity="error" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="18" column="1" severity="error" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="18" column="18" severity="error" message="&apos;catch&apos; não é precedido por espaço em branco." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="18" column="18" severity="error" message="&apos;}&apos; não é seguido de espaço em branco." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="18" column="23" severity="error" message="&apos;catch&apos; não é seguido de espaço em branco." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="18" column="36" severity="error" message="&apos;{&apos; não é precedido por espaço em branco." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="19" column="1" severity="error" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="20" column="1" severity="error" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="20" column="28" severity="error" message="&apos;try&apos; não é seguido de espaço em branco." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="20" column="28" severity="error" message="&apos;{&apos; não é precedido por espaço em branco." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="21" column="1" severity="error" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="22" column="1" severity="error" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="22" column="26" severity="error" message="&apos;catch&apos; não é precedido por espaço em branco." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="22" column="26" severity="error" message="&apos;}&apos; não é seguido de espaço em branco." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="22" column="31" severity="error" message="&apos;catch&apos; não é seguido de espaço em branco." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="22" column="45" severity="error" message="&apos;{&apos; não é precedido por espaço em branco." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="23" column="1" severity="error" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="24" column="1" severity="error" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="25" column="1" severity="error" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="25" column="18" severity="error" message="&apos;finally&apos; não é precedido por espaço em branco." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="25" column="18" severity="error" message="&apos;}&apos; não é seguido de espaço em branco." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="25" column="25" severity="error" message="&apos;finally&apos; não é seguido de espaço em branco." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="25" column="25" severity="error" message="&apos;{&apos; não é precedido por espaço em branco." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="25" column="25" severity="error" message="Tem que ter pelo menos uma instrução." source="com.puppycrawl.tools.checkstyle.checks.blocks.EmptyBlockCheck"/>
+<error line="26" column="1" severity="error" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="27" column="1" severity="error" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="28" severity="error" message="Line has trailing spaces." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
+<error line="28" column="1" severity="error" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="29" column="1" severity="error" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="31" column="1" severity="error" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="31" column="9" severity="error" message="Falta o comentário Javadoc." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="31" column="9" severity="error" message="O método &apos;salvarUser&apos; não foi concebido para extensão - precisa de ser abstracto, final ou vazio." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="31" column="35" severity="error" message="Parameter usuario should be final." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="32" column="1" severity="error" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="33" column="1" severity="error" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="34" column="1" severity="error" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+</file>
+<file name="C:\Users\Guylherme\git\TrabalhoGC\GCLIST\src\dao\GenericDAO.java">
+<error line="0" severity="error" message="File does not end with a newline." source="com.puppycrawl.tools.checkstyle.checks.NewlineAtEndOfFileCheck"/>
+<error line="8" severity="error" message="Falta o comentário Javadoc." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocTypeCheck"/>
+<error line="9" column="3" severity="error" message="Falta o comentário Javadoc." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="9" column="3" severity="error" message="Modificador &apos;public&apos; é redundante." source="com.puppycrawl.tools.checkstyle.checks.modifier.RedundantModifierCheck"/>
+<error line="10" column="1" severity="error" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="10" column="9" severity="error" message="Falta o comentário Javadoc." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="10" column="9" severity="error" message="Modificador &apos;public&apos; é redundante." source="com.puppycrawl.tools.checkstyle.checks.modifier.RedundantModifierCheck"/>
+<error line="11" column="1" severity="error" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="11" column="9" severity="error" message="Falta o comentário Javadoc." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="11" column="9" severity="error" message="Modificador &apos;public&apos; é redundante." source="com.puppycrawl.tools.checkstyle.checks.modifier.RedundantModifierCheck"/>
+<error line="12" column="1" severity="error" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="12" column="9" severity="error" message="Falta o comentário Javadoc." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="12" column="9" severity="error" message="Modificador &apos;public&apos; é redundante." source="com.puppycrawl.tools.checkstyle.checks.modifier.RedundantModifierCheck"/>
+<error line="13" column="1" severity="error" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="13" column="9" severity="error" message="Falta o comentário Javadoc." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="13" column="9" severity="error" message="Modificador &apos;public&apos; é redundante." source="com.puppycrawl.tools.checkstyle.checks.modifier.RedundantModifierCheck"/>
+<error line="14" column="1" severity="error" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="14" column="9" severity="error" message="Falta o comentário Javadoc." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="14" column="9" severity="error" message="Modificador &apos;public&apos; é redundante." source="com.puppycrawl.tools.checkstyle.checks.modifier.RedundantModifierCheck"/>
+<error line="15" column="1" severity="error" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="15" column="9" severity="error" message="Falta o comentário Javadoc." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="15" column="9" severity="error" message="Modificador &apos;public&apos; é redundante." source="com.puppycrawl.tools.checkstyle.checks.modifier.RedundantModifierCheck"/>
+<error line="16" column="1" severity="error" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="16" column="9" severity="error" message="Falta o comentário Javadoc." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="16" column="9" severity="error" message="Modificador &apos;public&apos; é redundante." source="com.puppycrawl.tools.checkstyle.checks.modifier.RedundantModifierCheck"/>
+<error line="17" column="1" severity="error" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="17" column="9" severity="error" message="Falta o comentário Javadoc." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="18" column="1" severity="error" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="18" column="9" severity="error" message="Falta o comentário Javadoc." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="19" column="1" severity="error" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="19" column="9" severity="error" message="Falta o comentário Javadoc." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+</file>
+<file name="C:\Users\Guylherme\git\TrabalhoGC\GCLIST\src\dao\GenericJPADAO.java">
+<error line="0" severity="error" message="File does not end with a newline." source="com.puppycrawl.tools.checkstyle.checks.NewlineAtEndOfFileCheck"/>
+<error line="11" severity="error" message="Line has trailing spaces." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
+<error line="13" severity="error" message="Line has trailing spaces." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
+<error line="14" severity="error" message="Falta o comentário Javadoc." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocTypeCheck"/>
+<error line="15" severity="error" message="Line has trailing spaces." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
+<error line="16" column="3" severity="error" message="Falta o comentário Javadoc." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="16" column="22" severity="error" message="Variável &apos;persistentClass&apos; deve ser privada e ter métodos acessores." source="com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"/>
+<error line="17" severity="error" message="Line has trailing spaces." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
+<error line="18" column="1" severity="error" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="18" column="9" severity="error" message="Falta o comentário Javadoc." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="18" column="9" severity="error" message="O método &apos;save&apos; não foi concebido para extensão - precisa de ser abstracto, final ou vazio." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="18" column="26" severity="error" message="Parameter entity should be final." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="19" column="1" severity="error" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="20" column="1" severity="error" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="21" severity="error" message="Line has trailing spaces." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
+<error line="22" column="1" severity="error" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="22" column="9" severity="error" message="Falta o comentário Javadoc." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="22" column="9" severity="error" message="O método &apos;delete&apos; não foi concebido para extensão - precisa de ser abstracto, final ou vazio." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="22" column="28" severity="error" message="Parameter entity should be final." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="23" column="1" severity="error" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="24" column="1" severity="error" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="25" severity="error" message="Line has trailing spaces." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
+<error line="26" column="1" severity="error" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="26" column="9" severity="error" message="Falta o comentário Javadoc." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="26" column="9" severity="error" message="O método &apos;find&apos; não foi concebido para extensão - precisa de ser abstracto, final ou vazio." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="26" column="23" severity="error" message="Parameter id should be final." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="27" column="1" severity="error" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="28" column="1" severity="error" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="29" severity="error" message="Line has trailing spaces." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
+<error line="30" column="1" severity="error" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="30" column="9" severity="error" message="Falta o comentário Javadoc." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="30" column="9" severity="error" message="O método &apos;find&apos; não foi concebido para extensão - precisa de ser abstracto, final ou vazio." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="31" severity="error" message="Linha contém mais do que 80 caracteres." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="31" column="1" severity="error" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="32" column="1" severity="error" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="33" column="1" severity="error" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="34" column="1" severity="error" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="35" severity="error" message="Line has trailing spaces." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
+<error line="36" column="1" severity="error" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="36" column="9" severity="error" message="Falta o comentário Javadoc." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="36" column="9" severity="error" message="O método &apos;getEm&apos; não foi concebido para extensão - precisa de ser abstracto, final ou vazio." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="37" column="1" severity="error" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="38" column="1" severity="error" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="39" severity="error" message="Line has trailing spaces." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
+<error line="40" column="1" severity="error" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="40" column="9" severity="error" message="Falta o comentário Javadoc." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="40" column="9" severity="error" message="O método &apos;beginTransaction&apos; não foi concebido para extensão - precisa de ser abstracto, final ou vazio." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="41" column="1" severity="error" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="42" column="1" severity="error" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="43" severity="error" message="Line has trailing spaces." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
+<error line="44" column="1" severity="error" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="44" column="9" severity="error" message="Falta o comentário Javadoc." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="44" column="9" severity="error" message="O método &apos;commit&apos; não foi concebido para extensão - precisa de ser abstracto, final ou vazio." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="45" column="1" severity="error" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="46" column="1" severity="error" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="47" severity="error" message="Line has trailing spaces." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
+<error line="48" column="1" severity="error" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="48" column="9" severity="error" message="Falta o comentário Javadoc." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="48" column="9" severity="error" message="O método &apos;rollback&apos; não foi concebido para extensão - precisa de ser abstracto, final ou vazio." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="49" column="1" severity="error" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="50" column="1" severity="error" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="51" severity="error" message="Line has trailing spaces." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
+<error line="52" column="1" severity="error" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="52" column="9" severity="error" message="Falta o comentário Javadoc." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="52" column="9" severity="error" message="O método &apos;close&apos; não foi concebido para extensão - precisa de ser abstracto, final ou vazio." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="53" column="1" severity="error" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="54" column="1" severity="error" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="56" column="1" severity="error" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="56" column="9" severity="error" message="Falta o comentário Javadoc." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="56" column="28" severity="error" message="Parameter atividade should be final." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="57" column="1" severity="error" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="58" severity="error" message="Line has trailing spaces." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
+<error line="58" column="1" severity="error" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="59" column="1" severity="error" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="61" column="1" severity="error" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="61" column="9" severity="error" message="Falta o comentário Javadoc." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="61" column="9" severity="error" message="O método &apos;salvarUser&apos; não foi concebido para extensão - precisa de ser abstracto, final ou vazio." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="61" column="35" severity="error" message="Parameter usuario should be final." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="62" column="1" severity="error" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="63" column="1" severity="error" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="64" column="1" severity="error" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="66" column="1" severity="error" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="66" column="9" severity="error" message="Falta o comentário Javadoc." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="66" column="9" severity="error" message="O método &apos;procurarUsuario&apos; não foi concebido para extensão - precisa de ser abstracto, final ou vazio." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="66" column="40" severity="error" message="Parameter nome should be final." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="67" column="1" severity="error" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="68" column="1" severity="error" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="69" column="1" severity="error" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="70" severity="error" message="Line has trailing spaces." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
+</file>
+<file name="C:\Users\Guylherme\git\TrabalhoGC\GCLIST\src\dao\UsuarioDAO.java">
+<error line="5" severity="error" message="Falta o comentário Javadoc." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocTypeCheck"/>
+<error line="5" column="56" severity="error" message="&apos;{&apos; não é precedido por espaço em branco." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="6" column="1" severity="error" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="6" column="9" severity="error" message="Falta o comentário Javadoc." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="6" column="9" severity="error" message="Modificador &apos;public&apos; é redundante." source="com.puppycrawl.tools.checkstyle.checks.modifier.RedundantModifierCheck"/>
+<error line="7" column="1" severity="error" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="7" column="9" severity="error" message="Falta o comentário Javadoc." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="7" column="9" severity="error" message="Modificador &apos;public&apos; é redundante." source="com.puppycrawl.tools.checkstyle.checks.modifier.RedundantModifierCheck"/>
+</file>
+<file name="C:\Users\Guylherme\git\TrabalhoGC\GCLIST\src\dao\UsuarioJPADAO.java">
+<error line="7" severity="error" message="Falta o comentário Javadoc." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocTypeCheck"/>
+<error line="7" column="80" severity="error" message="&apos;{&apos; não é precedido por espaço em branco." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="8" column="1" severity="error" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="8" column="9" severity="error" message="Falta o comentário Javadoc." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="8" column="31" severity="error" message="&apos;{&apos; não é precedido por espaço em branco." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="9" column="1" severity="error" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="9" column="37" severity="error" message="&apos;=&apos; não é precedido por espaço em branco." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="9" column="38" severity="error" message="&apos;=&apos; não é seguido de espaço em branco." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="10" column="1" severity="error" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="12" column="1" severity="error" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="12" column="9" severity="error" message="O método &apos;salvarUser&apos; não foi concebido para extensão - precisa de ser abstracto, final ou vazio." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="13" column="1" severity="error" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="13" column="35" severity="error" message="Parameter usuario should be final." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="14" column="1" severity="error" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="15" column="1" severity="error" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="15" column="20" severity="error" message="&apos;try&apos; não é seguido de espaço em branco." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="15" column="20" severity="error" message="&apos;{&apos; não é precedido por espaço em branco." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="16" column="1" severity="error" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="17" column="1" severity="error" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="18" column="1" severity="error" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="19" column="1" severity="error" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="20" column="1" severity="error" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="20" column="18" severity="error" message="&apos;catch&apos; não é precedido por espaço em branco." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="20" column="18" severity="error" message="&apos;}&apos; não é seguido de espaço em branco." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="20" column="23" severity="error" message="&apos;catch&apos; não é seguido de espaço em branco." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="20" column="36" severity="error" message="&apos;{&apos; não é precedido por espaço em branco." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="21" column="1" severity="error" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="22" column="1" severity="error" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="23" column="1" severity="error" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="23" column="18" severity="error" message="&apos;finally&apos; não é precedido por espaço em branco." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="23" column="18" severity="error" message="&apos;}&apos; não é seguido de espaço em branco." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="23" column="25" severity="error" message="&apos;finally&apos; não é seguido de espaço em branco." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="23" column="25" severity="error" message="&apos;{&apos; não é precedido por espaço em branco." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="24" column="1" severity="error" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="25" column="1" severity="error" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="26" column="1" severity="error" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="27" column="1" severity="error" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="29" column="1" severity="error" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="29" column="9" severity="error" message="O método &apos;procurarUsuario&apos; não foi concebido para extensão - precisa de ser abstracto, final ou vazio." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="30" column="1" severity="error" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="30" column="40" severity="error" message="Parameter nome should be final." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="31" column="1" severity="error" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="32" column="1" severity="error" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="33" column="1" severity="error" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="34" column="1" severity="error" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="34" column="20" severity="error" message="&apos;for&apos; não é seguido de espaço em branco." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="34" column="42" severity="error" message="&apos;{&apos; não é precedido por espaço em branco." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="35" column="1" severity="error" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="35" column="27" severity="error" message="&apos;if&apos; não é seguido de espaço em branco." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="35" column="53" severity="error" message="&apos;{&apos; não é precedido por espaço em branco." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="36" column="1" severity="error" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="37" column="1" severity="error" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="38" column="1" severity="error" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="39" column="1" severity="error" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="40" column="1" severity="error" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+</file>
+<file name="C:\Users\Guylherme\git\TrabalhoGC\GCLIST\src\filters\LoginFilter.java">
+<error line="0" severity="error" message="Missing package-info.java file." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocPackageCheck"/>
+<error line="4" severity="error" message="A forma de importação &apos;.*&apos; deve ser evitada - javax.servlet.*." source="com.puppycrawl.tools.checkstyle.checks.imports.AvoidStarImportCheck"/>
+<error line="6" severity="error" message="A forma de importação &apos;.*&apos; deve ser evitada - javax.servlet.http.*." source="com.puppycrawl.tools.checkstyle.checks.imports.AvoidStarImportCheck"/>
+<error line="8" severity="error" message="Falta o comentário Javadoc." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocTypeCheck"/>
+<error line="11" severity="error" message="Linha contém mais do que 80 caracteres." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="11" column="1" severity="error" message="Falta o comentário Javadoc." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="11" column="1" severity="error" message="O método &apos;doFilter&apos; não foi concebido para extensão - precisa de ser abstracto, final ou vazio." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="11" column="22" severity="error" message="Parameter request should be final." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="11" column="46" severity="error" message="Parameter response should be final." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="11" column="72" severity="error" message="Parameter chain should be final." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="16" column="46" severity="error" message="&apos;cast&apos; não é seguido de espaço em branco." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAfterCheck"/>
+<error line="17" severity="error" message="Linha contém mais do que 80 caracteres." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="22" column="1" severity="error" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="23" column="27" severity="error" message="&apos;cast&apos; não é seguido de espaço em branco." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAfterCheck"/>
+<error line="23" column="61" severity="error" message="&apos;+&apos; não é precedido por espaço em branco." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="23" column="62" severity="error" message="&apos;+&apos; não é seguido de espaço em branco." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="27" column="1" severity="error" message="Falta o comentário Javadoc." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="27" column="24" severity="error" message="&apos;{&apos; não é seguido de espaço em branco." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="27" column="24" severity="error" message="&apos;}&apos; não é precedido por espaço em branco." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="29" column="1" severity="error" message="Falta o comentário Javadoc." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="29" column="18" severity="error" message="Parameter arg0 should be final." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="29" column="62" severity="error" message="&apos;{&apos; não é seguido de espaço em branco." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="29" column="62" severity="error" message="&apos;}&apos; não é precedido por espaço em branco." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+</file>
+<file name="C:\Users\Guylherme\git\TrabalhoGC\GCLIST\src\models\Atividade.java">
+<error line="0" severity="error" message="Missing package-info.java file." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocPackageCheck"/>
+<error line="11" severity="error" message="Falta o comentário Javadoc." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocTypeCheck"/>
+<error line="13" severity="error" message="Line has trailing spaces." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
+<error line="13" column="1" severity="error" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="14" column="1" severity="error" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="14" column="9" severity="error" message="Falta o comentário Javadoc." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="15" column="1" severity="error" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="16" column="1" severity="error" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="17" severity="error" message="Line has trailing spaces." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
+<error line="17" column="1" severity="error" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="18" column="1" severity="error" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="18" column="9" severity="error" message="Falta o comentário Javadoc." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="19" column="1" severity="error" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="20" column="1" severity="error" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="21" severity="error" message="Line has trailing spaces." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
+<error line="21" column="1" severity="error" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="22" column="1" severity="error" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="22" column="9" severity="error" message="Falta o comentário Javadoc." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="22" column="21" severity="error" message="&apos;=&apos; não é precedido por espaço em branco." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="22" column="22" severity="error" message="&apos;=&apos; não é seguido de espaço em branco." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="23" column="1" severity="error" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="24" severity="error" message="Line has trailing spaces." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
+<error line="24" column="1" severity="error" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="25" column="1" severity="error" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="25" column="9" severity="error" message="Falta o comentário Javadoc." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="25" column="21" severity="error" message="&apos;=&apos; não é precedido por espaço em branco." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="25" column="22" severity="error" message="&apos;=&apos; não é seguido de espaço em branco." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="26" column="1" severity="error" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="27" severity="error" message="Line has trailing spaces." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
+<error line="27" column="1" severity="error" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="28" column="1" severity="error" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="28" column="9" severity="error" message="Falta o comentário Javadoc." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="28" column="21" severity="error" message="&apos;=&apos; não é precedido por espaço em branco." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="28" column="22" severity="error" message="&apos;=&apos; não é seguido de espaço em branco." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="29" column="1" severity="error" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="30" severity="error" message="Line has trailing spaces." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
+<error line="30" column="1" severity="error" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="31" severity="error" message="Line has trailing spaces." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
+<error line="31" column="1" severity="error" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="32" severity="error" message="Line has trailing spaces." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
+<error line="32" column="1" severity="error" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="33" column="1" severity="error" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="33" column="9" severity="error" message="O método &apos;toString&apos; não foi concebido para extensão - precisa de ser abstracto, final ou vazio." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="34" column="1" severity="error" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="35" column="1" severity="error" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="36" severity="error" message="Linha contém mais do que 80 caracteres." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="36" column="1" severity="error" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="37" column="1" severity="error" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="38" column="1" severity="error" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="39" column="1" severity="error" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="39" column="9" severity="error" message="Falta o comentário Javadoc." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="40" column="1" severity="error" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="41" column="1" severity="error" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="41" column="9" severity="error" message="Falta o comentário Javadoc." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="41" column="26" severity="error" message="Parameter usuario should be final." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="41" column="34" severity="error" message="&apos;usuario&apos; esconde um campo." source="com.puppycrawl.tools.checkstyle.checks.coding.HiddenFieldCheck"/>
+<error line="41" column="43" severity="error" message="Parameter codigoatividade should be final." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="41" column="47" severity="error" message="&apos;codigoatividade&apos; esconde um campo." source="com.puppycrawl.tools.checkstyle.checks.coding.HiddenFieldCheck"/>
+<error line="41" column="64" severity="error" message="Parameter titulo should be final." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="41" column="71" severity="error" message="&apos;titulo&apos; esconde um campo." source="com.puppycrawl.tools.checkstyle.checks.coding.HiddenFieldCheck"/>
+<error line="42" column="1" severity="error" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="42" column="25" severity="error" message="Parameter descricao should be final." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="42" column="32" severity="error" message="&apos;descricao&apos; esconde um campo." source="com.puppycrawl.tools.checkstyle.checks.coding.HiddenFieldCheck"/>
+<error line="42" column="43" severity="error" message="Parameter data should be final." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="42" column="50" severity="error" message="&apos;data&apos; esconde um campo." source="com.puppycrawl.tools.checkstyle.checks.coding.HiddenFieldCheck"/>
+<error line="43" column="1" severity="error" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="44" column="1" severity="error" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="45" column="1" severity="error" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="46" column="1" severity="error" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="47" column="1" severity="error" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="48" column="1" severity="error" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="49" column="1" severity="error" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="50" column="1" severity="error" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="50" column="9" severity="error" message="Falta o comentário Javadoc." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="50" column="9" severity="error" message="O método &apos;getUsuario&apos; não foi concebido para extensão - precisa de ser abstracto, final ou vazio." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="51" column="1" severity="error" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="52" column="1" severity="error" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="53" column="1" severity="error" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="53" column="9" severity="error" message="Falta o comentário Javadoc." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="53" column="9" severity="error" message="O método &apos;setUsuario&apos; não foi concebido para extensão - precisa de ser abstracto, final ou vazio." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="53" column="32" severity="error" message="Parameter usuario should be final." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="53" column="40" severity="error" message="&apos;usuario&apos; esconde um campo." source="com.puppycrawl.tools.checkstyle.checks.coding.HiddenFieldCheck"/>
+<error line="54" column="1" severity="error" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="55" column="1" severity="error" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="56" column="1" severity="error" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="56" column="9" severity="error" message="Falta o comentário Javadoc." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="56" column="9" severity="error" message="O método &apos;getCodigoatividade&apos; não foi concebido para extensão - precisa de ser abstracto, final ou vazio." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="57" column="1" severity="error" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="58" column="1" severity="error" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="59" column="1" severity="error" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="59" column="9" severity="error" message="Falta o comentário Javadoc." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="59" column="9" severity="error" message="O método &apos;setCodigoatividade&apos; não foi concebido para extensão - precisa de ser abstracto, final ou vazio." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="59" column="40" severity="error" message="Parameter codigoatividade should be final." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="59" column="44" severity="error" message="&apos;codigoatividade&apos; esconde um campo." source="com.puppycrawl.tools.checkstyle.checks.coding.HiddenFieldCheck"/>
+<error line="60" column="1" severity="error" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="61" column="1" severity="error" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="62" column="1" severity="error" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="62" column="9" severity="error" message="Falta o comentário Javadoc." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="62" column="9" severity="error" message="O método &apos;getTitulo&apos; não foi concebido para extensão - precisa de ser abstracto, final ou vazio." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="63" column="1" severity="error" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="64" column="1" severity="error" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="65" column="1" severity="error" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="65" column="9" severity="error" message="Falta o comentário Javadoc." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="65" column="9" severity="error" message="O método &apos;setTitulo&apos; não foi concebido para extensão - precisa de ser abstracto, final ou vazio." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="65" column="31" severity="error" message="Parameter titulo should be final." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="65" column="38" severity="error" message="&apos;titulo&apos; esconde um campo." source="com.puppycrawl.tools.checkstyle.checks.coding.HiddenFieldCheck"/>
+<error line="66" column="1" severity="error" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="67" column="1" severity="error" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="68" column="1" severity="error" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="68" column="9" severity="error" message="Falta o comentário Javadoc." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="68" column="9" severity="error" message="O método &apos;getDescricao&apos; não foi concebido para extensão - precisa de ser abstracto, final ou vazio." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="69" column="1" severity="error" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="70" column="1" severity="error" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="71" column="1" severity="error" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="71" column="9" severity="error" message="Falta o comentário Javadoc." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="71" column="9" severity="error" message="O método &apos;setDescricao&apos; não foi concebido para extensão - precisa de ser abstracto, final ou vazio." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="71" column="34" severity="error" message="Parameter descricao should be final." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="71" column="41" severity="error" message="&apos;descricao&apos; esconde um campo." source="com.puppycrawl.tools.checkstyle.checks.coding.HiddenFieldCheck"/>
+<error line="72" column="1" severity="error" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="73" column="1" severity="error" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="74" column="1" severity="error" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="74" column="9" severity="error" message="Falta o comentário Javadoc." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="74" column="9" severity="error" message="O método &apos;getData&apos; não foi concebido para extensão - precisa de ser abstracto, final ou vazio." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="75" column="1" severity="error" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="76" column="1" severity="error" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="77" column="1" severity="error" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="77" column="9" severity="error" message="Falta o comentário Javadoc." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="77" column="9" severity="error" message="O método &apos;setData&apos; não foi concebido para extensão - precisa de ser abstracto, final ou vazio." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="77" column="29" severity="error" message="Parameter data should be final." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="77" column="36" severity="error" message="&apos;data&apos; esconde um campo." source="com.puppycrawl.tools.checkstyle.checks.coding.HiddenFieldCheck"/>
+<error line="78" column="1" severity="error" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="79" column="1" severity="error" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+</file>
+<file name="C:\Users\Guylherme\git\TrabalhoGC\GCLIST\src\models\Usuario.java">
+<error line="9" severity="error" message="Falta o comentário Javadoc." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocTypeCheck"/>
+<error line="12" column="1" severity="error" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="12" column="9" severity="error" message="Falta o comentário Javadoc." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="13" column="1" severity="error" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="14" column="1" severity="error" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="16" column="1" severity="error" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="16" column="9" severity="error" message="Falta o comentário Javadoc." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="17" column="1" severity="error" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="19" column="1" severity="error" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="19" column="9" severity="error" message="Falta o comentário Javadoc." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="20" column="1" severity="error" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="22" column="1" severity="error" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="22" column="9" severity="error" message="Falta o comentário Javadoc." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="23" column="1" severity="error" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="25" column="1" severity="error" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="25" column="9" severity="error" message="Falta o comentário Javadoc." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="25" column="24" severity="error" message="Parameter nome should be final." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="25" column="31" severity="error" message="&apos;nome&apos; esconde um campo." source="com.puppycrawl.tools.checkstyle.checks.coding.HiddenFieldCheck"/>
+<error line="25" column="37" severity="error" message="Parameter senha should be final." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="25" column="44" severity="error" message="&apos;senha&apos; esconde um campo." source="com.puppycrawl.tools.checkstyle.checks.coding.HiddenFieldCheck"/>
+<error line="26" column="1" severity="error" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="27" column="1" severity="error" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="28" column="1" severity="error" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="29" column="1" severity="error" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="31" column="1" severity="error" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="31" column="9" severity="error" message="Falta o comentário Javadoc." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="31" column="9" severity="error" message="O método &apos;getId&apos; não foi concebido para extensão - precisa de ser abstracto, final ou vazio." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="32" column="1" severity="error" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="33" column="1" severity="error" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="35" column="1" severity="error" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="35" column="9" severity="error" message="Falta o comentário Javadoc." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="35" column="9" severity="error" message="O método &apos;setId&apos; não foi concebido para extensão - precisa de ser abstracto, final ou vazio." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="35" column="27" severity="error" message="Parameter id should be final." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="35" column="31" severity="error" message="&apos;id&apos; esconde um campo." source="com.puppycrawl.tools.checkstyle.checks.coding.HiddenFieldCheck"/>
+<error line="36" column="1" severity="error" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="37" column="1" severity="error" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="39" column="1" severity="error" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="39" column="9" severity="error" message="Falta o comentário Javadoc." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="39" column="9" severity="error" message="O método &apos;getNome&apos; não foi concebido para extensão - precisa de ser abstracto, final ou vazio." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="40" column="1" severity="error" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="41" column="1" severity="error" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="43" column="1" severity="error" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="43" column="9" severity="error" message="Falta o comentário Javadoc." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="43" column="9" severity="error" message="O método &apos;setNome&apos; não foi concebido para extensão - precisa de ser abstracto, final ou vazio." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="43" column="29" severity="error" message="Parameter nome should be final." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="43" column="36" severity="error" message="&apos;nome&apos; esconde um campo." source="com.puppycrawl.tools.checkstyle.checks.coding.HiddenFieldCheck"/>
+<error line="44" column="1" severity="error" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="45" column="1" severity="error" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="47" column="1" severity="error" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="47" column="9" severity="error" message="Falta o comentário Javadoc." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="47" column="9" severity="error" message="O método &apos;getSenha&apos; não foi concebido para extensão - precisa de ser abstracto, final ou vazio." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="48" column="1" severity="error" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="49" column="1" severity="error" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="51" column="1" severity="error" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="51" column="9" severity="error" message="Falta o comentário Javadoc." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="51" column="9" severity="error" message="O método &apos;setSenha&apos; não foi concebido para extensão - precisa de ser abstracto, final ou vazio." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="51" column="30" severity="error" message="Parameter senha should be final." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="51" column="37" severity="error" message="&apos;senha&apos; esconde um campo." source="com.puppycrawl.tools.checkstyle.checks.coding.HiddenFieldCheck"/>
+<error line="52" column="1" severity="error" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="53" column="1" severity="error" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+</file>
+<file name="C:\Users\Guylherme\git\TrabalhoGC\GCLIST\src\util\JPAUtil.java">
+<error line="0" severity="error" message="Missing package-info.java file." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocPackageCheck"/>
+<error line="8" severity="error" message="Falta o comentário Javadoc." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocTypeCheck"/>
+<error line="8" column="1" severity="error" message="Utility classes should not have a public or default constructor." source="com.puppycrawl.tools.checkstyle.checks.design.HideUtilityClassConstructorCheck"/>
+<error line="9" severity="error" message="Line has trailing spaces." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
+<error line="9" column="1" severity="error" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="10" column="1" severity="error" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="10" column="9" severity="error" message="Falta o comentário Javadoc." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="10" column="51" severity="error" message="Nome &apos;emf&apos; deve condizer com o padrão &apos;^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.ConstantNameCheck"/>
+<error line="11" column="1" severity="error" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="12" severity="error" message="Line has trailing spaces." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
+<error line="13" severity="error" message="Linha contém mais do que 80 caracteres." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="13" column="1" severity="error" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="13" column="9" severity="error" message="Falta o comentário Javadoc." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="14" severity="error" message="Line has trailing spaces." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
+<error line="15" column="1" severity="error" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="16" column="1" severity="error" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="17" column="1" severity="error" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="18" column="1" severity="error" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="19" severity="error" message="Esperava uma marca @return." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="19" column="1" severity="error" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="20" column="1" severity="error" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="21" column="1" severity="error" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="22" column="1" severity="error" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="23" column="1" severity="error" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="24" column="1" severity="error" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="25" column="1" severity="error" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="26" column="1" severity="error" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="27" severity="error" message="Line has trailing spaces." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
+<error line="28" column="1" severity="error" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="29" severity="error" message="Linha contém mais do que 80 caracteres." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="29" column="1" severity="error" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="30" column="1" severity="error" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="31" column="1" severity="error" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="32" column="1" severity="error" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="33" column="1" severity="error" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="34" column="1" severity="error" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="35" column="1" severity="error" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="36" column="1" severity="error" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="37" column="1" severity="error" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="38" column="1" severity="error" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="39" column="1" severity="error" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="40" column="1" severity="error" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="41" column="1" severity="error" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="42" severity="error" message="Line has trailing spaces." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
+<error line="43" column="1" severity="error" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="43" column="9" severity="error" message="Falta o comentário Javadoc." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="44" column="1" severity="error" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="45" column="1" severity="error" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="46" severity="error" message="Line has trailing spaces." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
+<error line="46" column="1" severity="error" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="47" column="1" severity="error" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="47" column="9" severity="error" message="Falta o comentário Javadoc." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="48" column="1" severity="error" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="49" column="1" severity="error" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="50" column="1" severity="error" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="51" column="1" severity="error" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="52" column="1" severity="error" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="53" severity="error" message="Line has trailing spaces." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
+<error line="53" column="1" severity="error" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="54" column="1" severity="error" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="54" column="9" severity="error" message="Falta o comentário Javadoc." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="55" column="1" severity="error" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="56" column="1" severity="error" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="57" column="1" severity="error" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="58" column="1" severity="error" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="59" column="1" severity="error" message="Linha contém um caracter de tabulação." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+</file>
+</checkstyle>
