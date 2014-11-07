@@ -1,0 +1,14 @@
+controllers\AtividadeBean.class
+controllers\LoginBean.class
+models\Usuario.class
+util\JPAUtil.class
+models\Atividade.class
+dao\AtividadeJPADAO.class
+dao\GenericJPADAO.class
+filters\LoginFilter.class
+dao\UsuarioJPADAO.class
+dao\GenericDAO.class
+dao\UsuarioDAO.class
+dao\AtividadeDAO.class
+controllers\CadastrarBean.class
+controllers\RepositorioBean.class
