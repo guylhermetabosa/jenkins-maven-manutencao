@@ -32,8 +32,9 @@ public class UsuarioJPADAO extends GenericJPADAO<Usuario> implements UsuarioDAO{
 		//usd.beginTransaction();
 		List<Usuario> usuarios = usd.find();
 		for(Usuario u : usuarios){
-			if(u.getNome().equals(nome))
+			if(u.getNome().equals(nome)){
 				return u;
+			}
 		}
 		return null;
 	}

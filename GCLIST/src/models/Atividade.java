@@ -12,11 +12,11 @@ import javax.persistence.ManyToOne;
 public class Atividade {
 	
 	@Id
-	@GeneratedValue(strategy=GenerationType.AUTO)
+	@GeneratedValue(strategy = GenerationType.AUTO)
 	private int codigoatividade;
 	
 	@ManyToOne
-	@JoinColumn(name="idUsuario")
+	@JoinColumn(name = "idUsuario")
 	private Usuario usuario;
 	
 	@Column(name="titulo")

@@ -24,8 +24,8 @@ public class RepositorioBean {
 		return atividades;
 	}
 
-	public void setAtividades(List<Atividade> a) {
-		this.atividades = a;
+	public void setAtividades(List<Atividade> atividade) {
+		this.atividades = atividade;
 	}
 
 	public void insere(Atividade atividade, Usuario usuario) {

@@ -1,6 +1,7 @@
 package dao;
 
 import models.Atividade;
+import models.Usuario;
 
 public class AtividadeJPADAO extends GenericJPADAO<Atividade> implements AtividadeDAO{
 	public AtividadeJPADAO(){
@@ -25,5 +26,10 @@ public class AtividadeJPADAO extends GenericJPADAO<Atividade> implements Ativida
 			//atd.close();
 		}
 		
+	}
+
+	public Usuario salvarUser(Usuario usuario) {
+		// TODO Auto-generated method stub
+		return null;
 	}
 }

@@ -5,6 +5,8 @@ import java.util.List;
 import javax.persistence.EntityManager;
 import javax.persistence.criteria.CriteriaQuery;
 
+import models.Atividade;
+import models.Usuario;
 import util.JPAUtil;
  
 
@@ -49,6 +51,21 @@ public abstract class GenericJPADAO<T> implements GenericDAO<T> {
  
 	public void close() {
 		JPAUtil.closeEntityManager();
+	}
+
+	public void salvar(Atividade atividade) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	public Usuario salvarUser(Usuario usuario) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	public Usuario procurarUsuario(String nome) {
+		// TODO Auto-generated method stub
+		return null;
 	}
  
 }
